@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(thumbnail/img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header {
+  display: flex;
+}
+h1 {
+  font-family: arial;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #ff7200;
+  font-weight: bold;
+}
+.type {
+  padding: 10px 20px;
+  font-family: arial;
+  margin-left: 90px;
+  margin-top: 20px;
+  border: 1px solid #ff7200;
+  background: transparent;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.btn {
+  padding: 12px 25px;
+  background: #ff7200;
+  margin-left: 0%;
+  border-radius: 0px;
+  font-size: 15px;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+}
+.btn:hover {
+  background: #ff7200;
+  color: black;
+  transition: 0.4s ease-in-out;
+}
+header nav {
+  padding-top: 30px;
+  margin-left: 30px;
+}
+header nav a {
+  font-family: arial;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+  margin-left: 3px;
+  padding: 40px;
+  margin-bottom: 0px;
+}
+header nav a:hover {
+  color: #ff7200;
+}
+section p {
+  font-family: time new roman;
+  font-size: 50px;
+  margin-top: 130px;
+  color: #fff;
+  margin-left: 20px;
+  font-weight: bold;
+}
+span {
+  color: #ff7200;
+  font-size: 70px;
+}
+.para2 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: arial;
+  width: 780px;
+  line-height: 30px;
+  margin-left: 25px;
+  margin-top: -20px;
+}
+button {
+  padding: 10px 50px;
+  background: #ff7200;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  transition: 0.4s ease-in-out;
+}
+button:hover {
+  background: #fff;
+}
+.form {
+  width: 300px;
+  height: 450px;
+  float: right;
+  margin-right: 300px;
+  margin-top: -330px;
+  background: black;
+  border-radius: 5px;
+}
+.btnnn {
+  font-family: arial;
+  background: #fff;
+  color: #ff7200;
+  text-align: center;
+  margin-bottom: 18px;
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 8px 60px;
+}
+div input {
+  background: transparent;
+  border: 1px solid #ff7200;
+  padding: 10px;
+  margin-left: 30px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid #ff7200;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  font-size: 16px;
+}
+::placeholder {
+  color: #fff;
+}
+.btnn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 90px;
+  padding-right: 90px;
+  transition: none;
+  text-align: center;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.btnn a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btnn:hover {
+  background: #fff;
+}
+.link {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: arial;
+}
+.here {
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.log {
+  text-align: center;
+  color: #fff;
+  margin-top: 16px;
+}
+.icon {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.icon a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 3px;
+  transition: 0.4s ease-in-out;
+}
+.icon a:hover {
+  color: #ff7200;
+}
